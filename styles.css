@@ -1,0 +1,21 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.heroHeader {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-image: url(https://media.istockphoto.com/photos/watzmann-in-alps-dramatic-reflection-at-sunset-national-park-picture-id1136834574?b=1&k=20&m=1136834574&s=170667a&w=0&h=XbalJPIOpEUvb0ZmtFvjTh_X1aOzl5wOUWXPQ2a-4XQ=);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heroHeader h1 {
+  padding: 1rem 0 1rem 0;
+}
+.heroHeader h2 {
+  font-size: 16px;
+  padding: ;
+}
+.heroHeader h1,
+h2 {
+  color: #fff;
+}
