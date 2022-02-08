@@ -38,9 +38,13 @@ a:hover {
   display: block;
   margin-top: 1rem;
   text-align: left;
-  padding-left: 1.5rem;
+  padding-left: 2.2rem;
 }
 .container.aboutPage {
+  padding: 8rem 3rem 3rem;
+  text-align: center;
+}
+.container.gcPage {
   padding: 8rem 3rem 3rem;
   text-align: center;
 }
@@ -111,6 +115,38 @@ hr.contactHR {
 .hsFooter i.far.fa-envelope {
   font-size: 20px;
 }
+.backButton {
+  color: #669b45;
+
+  border-radius: 8px;
+  text-decoration: none !important;
+}
+i.fas.fa-angle-left {
+  padding-right: 0.6rem;
+  font-size: 18px;
+}
+.backButton:hover {
+  color: #2f7802 !important;
+}
+.gcPage p {
+  text-align: left;
+  margin-bottom: 4rem;
+}
+span.subText {
+  font-size: 12px;
+  padding-left: 0.3rem;
+  color: #a7a7a7;
+}
+
+.gcPage a {
+  color: #669b45 !important;
+  text-decoration: none;
+}
+.gcPage a:hover {
+  color: #2f7802 !important;
+  font-weight: 600;
+}
+
 @media (max-width: 576px) {
   .container {
     text-align: center;
